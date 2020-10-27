@@ -73,6 +73,16 @@ namespace Rubber_Sheet.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Circled_Play_48px {
+            get {
+                object obj = ResourceManager.GetObject("Circled_Play_48px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Combo_Chart_48px {
             get {
                 object obj = ResourceManager.GetObject("Combo_Chart_48px", resourceCulture);
@@ -93,6 +103,16 @@ namespace Rubber_Sheet.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FanON {
+            get {
+                object obj = ResourceManager.GetObject("FanON", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Home_48px {
             get {
                 object obj = ResourceManager.GetObject("Home_48px", resourceCulture);
@@ -103,9 +123,69 @@ namespace Rubber_Sheet.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap humidity {
+            get {
+                object obj = ResourceManager.GetObject("humidity", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Main1 {
+            get {
+                object obj = ResourceManager.GetObject("Main1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pump1 {
+            get {
+                object obj = ResourceManager.GetObject("pump1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Robot_48px {
             get {
                 object obj = ResourceManager.GetObject("Robot_48px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SCR {
+            get {
+                object obj = ResourceManager.GetObject("SCR", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Scroll_Down_48px {
+            get {
+                object obj = ResourceManager.GetObject("Scroll_Down_48px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Scroll_Up_48px {
+            get {
+                object obj = ResourceManager.GetObject("Scroll_Up_48px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -126,6 +206,16 @@ namespace Rubber_Sheet.Properties {
         internal static System.Drawing.Bitmap Shutdown_48px {
             get {
                 object obj = ResourceManager.GetObject("Shutdown_48px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Stop_Sign_48px {
+            get {
+                object obj = ResourceManager.GetObject("Stop_Sign_48px", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
