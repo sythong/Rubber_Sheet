@@ -28,122 +28,124 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.shapeContainer2 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
-            this.rectangleShape2 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.rectangleShape3 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.label3 = new System.Windows.Forms.Label();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.shapeContainer5 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
-            this.rectangleShape9 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.rectangleShape10 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.label15 = new System.Windows.Forms.Label();
-            this.ovalShape1 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape2 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape3 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape4 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.ovalShape5 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape6 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.ovalShape7 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape8 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape9 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape10 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
-            this.ovalShape11 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape12 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape13 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape14 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.btnOffXiLanh4 = new System.Windows.Forms.Button();
+            this.btnOnXiLanh4 = new System.Windows.Forms.Button();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.btnOffServo4 = new System.Windows.Forms.Button();
+            this.btnOnServo4 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.shapeContainer2 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
+            this.ovXiLanh4Down = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovXiLanh4Up = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovLimitXilanh4Up = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovLimitXilanh4Down = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovLimitSERVO4Down = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovLimitSERVO4Up = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovServo4Up = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovServo4Down = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.rectangleShape3 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.rectangleShape2 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.label14 = new System.Windows.Forms.Label();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.btnPumpOFF = new System.Windows.Forms.Button();
+            this.btnPumpON = new System.Windows.Forms.Button();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.shapeContainer5 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
+            this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.ovPumpErr = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovPumRun = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovDoor4 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovDoor3 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovDoor2 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovDoor1 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.rectangleShape9 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.rectangleShape10 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.btnOffXiLanh3 = new System.Windows.Forms.Button();
+            this.btnOnXiLanh3 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
+            this.btnOffServo3 = new System.Windows.Forms.Button();
+            this.btnOnServo3 = new System.Windows.Forms.Button();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
-            this.ovalShape15 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape16 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape17 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape18 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape19 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape20 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape21 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape22 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovXiLanh3Down = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovXiLanh3Up = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovLimitXilanh3Up = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovLimitXilanh3Down = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovLimitSERVO3Down = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovLimitSERVO3Up = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovServo3Up = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovServo3Down = new Microsoft.VisualBasic.PowerPacks.OvalShape();
             this.rectangleShape1 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.rectangleShape4 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.btnOffXiLanh2 = new System.Windows.Forms.Button();
+            this.btnOnXiLanh2 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.btnOffServo2 = new System.Windows.Forms.Button();
+            this.btnOnServo2 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.shapeContainer3 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
-            this.ovalShape23 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape24 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape25 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape26 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape27 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape28 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape29 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape30 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovXiLanh2Down = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovXiLanh2Up = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovLimitXilanh2Up = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovLimitXilanh2Down = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovLimitSERVO2Down = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovLimitSERVO2Up = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovServo2Up = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovServo2Down = new Microsoft.VisualBasic.PowerPacks.OvalShape();
             this.rectangleShape5 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.rectangleShape6 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
+            this.btnOffXiLanh1 = new System.Windows.Forms.Button();
+            this.btnOnXiLanh1 = new System.Windows.Forms.Button();
             this.label33 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
+            this.btnOffServo1 = new System.Windows.Forms.Button();
+            this.btnOnServo1 = new System.Windows.Forms.Button();
             this.label35 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
             this.shapeContainer4 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
-            this.ovalShape31 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape32 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape33 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape34 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape35 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape36 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape37 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
-            this.ovalShape38 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovXiLanh1Down = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovXiLanh1Up = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovLimitXilanh1Up = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovLimitXilanh1Down = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovLimitSERVO1Down = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovLimitSERVO1Up = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovServo1Up = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.ovServo1Down = new Microsoft.VisualBasic.PowerPacks.OvalShape();
             this.rectangleShape7 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.rectangleShape8 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.rectangleShape11 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.shapeContainer6 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.timer1Update = new System.Windows.Forms.Timer(this.components);
             this.groupBox1.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -155,12 +157,12 @@
             // 
             this.groupBox1.Controls.Add(this.label24);
             this.groupBox1.Controls.Add(this.label25);
-            this.groupBox1.Controls.Add(this.button5);
-            this.groupBox1.Controls.Add(this.button6);
+            this.groupBox1.Controls.Add(this.btnOffXiLanh4);
+            this.groupBox1.Controls.Add(this.btnOnXiLanh4);
             this.groupBox1.Controls.Add(this.label23);
             this.groupBox1.Controls.Add(this.label22);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button3);
+            this.groupBox1.Controls.Add(this.btnOffServo4);
+            this.groupBox1.Controls.Add(this.btnOnServo4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
@@ -171,25 +173,275 @@
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(104, 550);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(167, 23);
+            this.label24.TabIndex = 17;
+            this.label24.Text = "GIỚI HẠN DƯỚI";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Location = new System.Drawing.Point(104, 486);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(166, 23);
+            this.label25.TabIndex = 18;
+            this.label25.Text = "GIỚI HẠN TRÊN";
+            // 
+            // btnOffXiLanh4
+            // 
+            this.btnOffXiLanh4.BackColor = System.Drawing.Color.DarkOrchid;
+            this.btnOffXiLanh4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnOffXiLanh4.FlatAppearance.BorderSize = 2;
+            this.btnOffXiLanh4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnOffXiLanh4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOffXiLanh4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOffXiLanh4.ForeColor = System.Drawing.Color.White;
+            this.btnOffXiLanh4.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Down_48px;
+            this.btnOffXiLanh4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOffXiLanh4.Location = new System.Drawing.Point(32, 705);
+            this.btnOffXiLanh4.Name = "btnOffXiLanh4";
+            this.btnOffXiLanh4.Size = new System.Drawing.Size(142, 75);
+            this.btnOffXiLanh4.TabIndex = 15;
+            this.btnOffXiLanh4.Text = "LÙI   ";
+            this.btnOffXiLanh4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnOffXiLanh4.UseVisualStyleBackColor = false;
+            this.btnOffXiLanh4.Click += new System.EventHandler(this.btnOnOffXiLanh4_Click);
+            // 
+            // btnOnXiLanh4
+            // 
+            this.btnOnXiLanh4.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnOnXiLanh4.FlatAppearance.BorderColor = System.Drawing.Color.SpringGreen;
+            this.btnOnXiLanh4.FlatAppearance.BorderSize = 2;
+            this.btnOnXiLanh4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.btnOnXiLanh4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOnXiLanh4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOnXiLanh4.ForeColor = System.Drawing.Color.White;
+            this.btnOnXiLanh4.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Up_48px;
+            this.btnOnXiLanh4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOnXiLanh4.Location = new System.Drawing.Point(32, 613);
+            this.btnOnXiLanh4.Name = "btnOnXiLanh4";
+            this.btnOnXiLanh4.Size = new System.Drawing.Size(142, 75);
+            this.btnOnXiLanh4.TabIndex = 16;
+            this.btnOnXiLanh4.Text = "TIẾN  ";
+            this.btnOnXiLanh4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnOnXiLanh4.UseVisualStyleBackColor = false;
+            this.btnOnXiLanh4.Click += new System.EventHandler(this.btnOnOffXiLanh4_Click);
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Location = new System.Drawing.Point(104, 167);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(167, 23);
+            this.label23.TabIndex = 14;
+            this.label23.Text = "GIỚI HẠN DƯỚI";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Location = new System.Drawing.Point(104, 103);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(166, 23);
+            this.label22.TabIndex = 14;
+            this.label22.Text = "GIỚI HẠN TRÊN";
+            // 
+            // btnOffServo4
+            // 
+            this.btnOffServo4.BackColor = System.Drawing.Color.DarkOrchid;
+            this.btnOffServo4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnOffServo4.FlatAppearance.BorderSize = 2;
+            this.btnOffServo4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnOffServo4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOffServo4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOffServo4.ForeColor = System.Drawing.Color.White;
+            this.btnOffServo4.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Down_48px;
+            this.btnOffServo4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOffServo4.Location = new System.Drawing.Point(32, 312);
+            this.btnOffServo4.Name = "btnOffServo4";
+            this.btnOffServo4.Size = new System.Drawing.Size(142, 75);
+            this.btnOffServo4.TabIndex = 13;
+            this.btnOffServo4.Text = "LÙI   ";
+            this.btnOffServo4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnOffServo4.UseVisualStyleBackColor = false;
+            this.btnOffServo4.Click += new System.EventHandler(this.btnOnOffServo4_Click);
+            // 
+            // btnOnServo4
+            // 
+            this.btnOnServo4.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnOnServo4.FlatAppearance.BorderColor = System.Drawing.Color.SpringGreen;
+            this.btnOnServo4.FlatAppearance.BorderSize = 2;
+            this.btnOnServo4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.btnOnServo4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOnServo4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOnServo4.ForeColor = System.Drawing.Color.White;
+            this.btnOnServo4.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Up_48px;
+            this.btnOnServo4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOnServo4.Location = new System.Drawing.Point(32, 220);
+            this.btnOnServo4.Name = "btnOnServo4";
+            this.btnOnServo4.Size = new System.Drawing.Size(142, 75);
+            this.btnOnServo4.TabIndex = 13;
+            this.btnOnServo4.Text = "TIẾN  ";
+            this.btnOnServo4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnOnServo4.UseVisualStyleBackColor = false;
+            this.btnOnServo4.Click += new System.EventHandler(this.btnOnOffServo4_Click);
+            // 
+            // label3
+            // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.label3.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label3.Location = new System.Drawing.Point(103, 425);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(103, 25);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "XI-LANH";
+            // 
+            // label2
+            // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label2.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label2.Location = new System.Drawing.Point(113, 54);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(83, 25);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "SERVO";
+            // 
+            // label1
+            // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label1.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label1.Location = new System.Drawing.Point(70, 13);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(169, 25);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "BUỒNG SẤY 04";
+            // 
             // shapeContainer2
             // 
             this.shapeContainer2.Location = new System.Drawing.Point(3, 16);
             this.shapeContainer2.Margin = new System.Windows.Forms.Padding(0);
             this.shapeContainer2.Name = "shapeContainer2";
             this.shapeContainer2.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
-            this.ovalShape14,
-            this.ovalShape13,
-            this.ovalShape12,
-            this.ovalShape11,
-            this.ovalShape10,
-            this.ovalShape9,
-            this.ovalShape8,
-            this.ovalShape7,
+            this.ovXiLanh4Down,
+            this.ovXiLanh4Up,
+            this.ovLimitXilanh4Up,
+            this.ovLimitXilanh4Down,
+            this.ovLimitSERVO4Down,
+            this.ovLimitSERVO4Up,
+            this.ovServo4Up,
+            this.ovServo4Down,
             this.rectangleShape3,
             this.rectangleShape2});
             this.shapeContainer2.Size = new System.Drawing.Size(325, 790);
             this.shapeContainer2.TabIndex = 0;
             this.shapeContainer2.TabStop = false;
+            // 
+            // ovXiLanh4Down
+            // 
+            this.ovXiLanh4Down.BackColor = System.Drawing.SystemColors.Control;
+            this.ovXiLanh4Down.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovXiLanh4Down.BorderColor = System.Drawing.Color.Red;
+            this.ovXiLanh4Down.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovXiLanh4Down.Location = new System.Drawing.Point(220, 695);
+            this.ovXiLanh4Down.Name = "ovXiLanh4Down";
+            this.ovXiLanh4Down.Size = new System.Drawing.Size(65, 65);
+            // 
+            // ovXiLanh4Up
+            // 
+            this.ovXiLanh4Up.BackColor = System.Drawing.SystemColors.Control;
+            this.ovXiLanh4Up.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovXiLanh4Up.BorderColor = System.Drawing.Color.Lime;
+            this.ovXiLanh4Up.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovXiLanh4Up.Location = new System.Drawing.Point(220, 603);
+            this.ovXiLanh4Up.Name = "ovXiLanh4Up";
+            this.ovXiLanh4Up.Size = new System.Drawing.Size(65, 65);
+            // 
+            // ovLimitXilanh4Up
+            // 
+            this.ovLimitXilanh4Up.BackColor = System.Drawing.SystemColors.Control;
+            this.ovLimitXilanh4Up.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovLimitXilanh4Up.BorderColor = System.Drawing.Color.Lime;
+            this.ovLimitXilanh4Up.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovLimitXilanh4Up.Location = new System.Drawing.Point(33, 458);
+            this.ovLimitXilanh4Up.Name = "ovLimitXilanh4Up";
+            this.ovLimitXilanh4Up.Size = new System.Drawing.Size(45, 45);
+            // 
+            // ovLimitXilanh4Down
+            // 
+            this.ovLimitXilanh4Down.BackColor = System.Drawing.SystemColors.Control;
+            this.ovLimitXilanh4Down.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovLimitXilanh4Down.BorderColor = System.Drawing.Color.Red;
+            this.ovLimitXilanh4Down.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovLimitXilanh4Down.Location = new System.Drawing.Point(33, 521);
+            this.ovLimitXilanh4Down.Name = "ovLimitXilanh4Down";
+            this.ovLimitXilanh4Down.Size = new System.Drawing.Size(45, 45);
+            // 
+            // ovLimitSERVO4Down
+            // 
+            this.ovLimitSERVO4Down.BackColor = System.Drawing.SystemColors.Control;
+            this.ovLimitSERVO4Down.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovLimitSERVO4Down.BorderColor = System.Drawing.Color.Red;
+            this.ovLimitSERVO4Down.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovLimitSERVO4Down.Location = new System.Drawing.Point(33, 138);
+            this.ovLimitSERVO4Down.Name = "ovLimitSERVO4Down";
+            this.ovLimitSERVO4Down.Size = new System.Drawing.Size(45, 45);
+            // 
+            // ovLimitSERVO4Up
+            // 
+            this.ovLimitSERVO4Up.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovLimitSERVO4Up.BorderColor = System.Drawing.Color.Lime;
+            this.ovLimitSERVO4Up.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovLimitSERVO4Up.Location = new System.Drawing.Point(33, 75);
+            this.ovLimitSERVO4Up.Name = "ovLimitSERVO4Up";
+            this.ovLimitSERVO4Up.Size = new System.Drawing.Size(45, 45);
+            // 
+            // ovServo4Up
+            // 
+            this.ovServo4Up.BackColor = System.Drawing.SystemColors.Control;
+            this.ovServo4Up.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovServo4Up.BorderColor = System.Drawing.Color.Lime;
+            this.ovServo4Up.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovServo4Up.Location = new System.Drawing.Point(220, 208);
+            this.ovServo4Up.Name = "ovServo4Up";
+            this.ovServo4Up.Size = new System.Drawing.Size(65, 65);
+            // 
+            // ovServo4Down
+            // 
+            this.ovServo4Down.BackColor = System.Drawing.Color.Transparent;
+            this.ovServo4Down.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovServo4Down.BorderColor = System.Drawing.Color.Red;
+            this.ovServo4Down.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovServo4Down.Location = new System.Drawing.Point(220, 300);
+            this.ovServo4Down.Name = "ovServo4Down";
+            this.ovServo4Down.Size = new System.Drawing.Size(65, 65);
+            // 
+            // rectangleShape3
+            // 
+            this.rectangleShape3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.rectangleShape3.BorderWidth = 2;
+            this.rectangleShape3.CornerRadius = 5;
+            this.rectangleShape3.Location = new System.Drawing.Point(4, 421);
+            this.rectangleShape3.Name = "rectangleShape3";
+            this.rectangleShape3.Size = new System.Drawing.Size(316, 361);
             // 
             // rectangleShape2
             // 
@@ -214,61 +466,10 @@
             this.label14.TabIndex = 5;
             this.label14.Text = "BẢNG ĐIỀU KHIỂN ĐỘNG CƠ VÀ XI LANH BUỒNG SẤY";
             // 
-            // label1
-            // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.label1.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label1.Location = new System.Drawing.Point(70, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(169, 25);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "BUỒNG SẤY 04";
-            // 
-            // label2
-            // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label2.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label2.Location = new System.Drawing.Point(113, 54);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(83, 25);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "SERVO";
-            // 
-            // rectangleShape3
-            // 
-            this.rectangleShape3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.rectangleShape3.BorderWidth = 2;
-            this.rectangleShape3.CornerRadius = 5;
-            this.rectangleShape3.Location = new System.Drawing.Point(4, 421);
-            this.rectangleShape3.Name = "rectangleShape3";
-            this.rectangleShape3.Size = new System.Drawing.Size(316, 361);
-            // 
-            // label3
-            // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label3.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label3.Location = new System.Drawing.Point(103, 425);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(103, 25);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "XI-LANH";
-            // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.button2);
-            this.groupBox5.Controls.Add(this.button1);
+            this.groupBox5.Controls.Add(this.btnPumpOFF);
+            this.groupBox5.Controls.Add(this.btnPumpON);
             this.groupBox5.Controls.Add(this.label21);
             this.groupBox5.Controls.Add(this.label20);
             this.groupBox5.Controls.Add(this.label19);
@@ -280,9 +481,123 @@
             this.groupBox5.Controls.Add(this.shapeContainer5);
             this.groupBox5.Location = new System.Drawing.Point(1378, 53);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(300, 823);
+            this.groupBox5.Size = new System.Drawing.Size(300, 809);
             this.groupBox5.TabIndex = 2;
             this.groupBox5.TabStop = false;
+            // 
+            // btnPumpOFF
+            // 
+            this.btnPumpOFF.BackColor = System.Drawing.Color.DarkOrchid;
+            this.btnPumpOFF.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnPumpOFF.FlatAppearance.BorderSize = 2;
+            this.btnPumpOFF.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnPumpOFF.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPumpOFF.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPumpOFF.ForeColor = System.Drawing.Color.White;
+            this.btnPumpOFF.Image = global::Rubber_Sheet.Properties.Resources.Stop_Sign_48px;
+            this.btnPumpOFF.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPumpOFF.Location = new System.Drawing.Point(157, 696);
+            this.btnPumpOFF.Name = "btnPumpOFF";
+            this.btnPumpOFF.Size = new System.Drawing.Size(120, 81);
+            this.btnPumpOFF.TabIndex = 13;
+            this.btnPumpOFF.Text = "TẮT ";
+            this.btnPumpOFF.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnPumpOFF.UseVisualStyleBackColor = false;
+            this.btnPumpOFF.Click += new System.EventHandler(this.btnPumpOnOff_Click);
+            // 
+            // btnPumpON
+            // 
+            this.btnPumpON.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnPumpON.FlatAppearance.BorderColor = System.Drawing.Color.SpringGreen;
+            this.btnPumpON.FlatAppearance.BorderSize = 2;
+            this.btnPumpON.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.btnPumpON.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPumpON.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPumpON.ForeColor = System.Drawing.Color.White;
+            this.btnPumpON.Image = global::Rubber_Sheet.Properties.Resources.Circled_Play_48px;
+            this.btnPumpON.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnPumpON.Location = new System.Drawing.Point(21, 696);
+            this.btnPumpON.Name = "btnPumpON";
+            this.btnPumpON.Size = new System.Drawing.Size(120, 81);
+            this.btnPumpON.TabIndex = 13;
+            this.btnPumpON.Text = "BẬT ";
+            this.btnPumpON.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnPumpON.UseVisualStyleBackColor = false;
+            this.btnPumpON.Click += new System.EventHandler(this.btnPumpOnOff_Click);
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(91, 565);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(123, 23);
+            this.label21.TabIndex = 12;
+            this.label21.Text = "BƠM SỰ CỐ";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(91, 486);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(179, 23);
+            this.label20.TabIndex = 12;
+            this.label20.Text = "BƠM ĐANG CHẠY";
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(91, 345);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(179, 23);
+            this.label19.TabIndex = 11;
+            this.label19.Text = "CỬA SỐ 04 ĐÓNG";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(91, 264);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(179, 23);
+            this.label18.TabIndex = 10;
+            this.label18.Text = "CỬA SỐ 03 ĐÓNG";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(91, 183);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(179, 23);
+            this.label17.TabIndex = 9;
+            this.label17.Text = "CỬA SỐ 02 ĐÓNG";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(91, 102);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(179, 23);
+            this.label13.TabIndex = 8;
+            this.label13.Text = "CỬA SỐ 01 ĐÓNG";
+            // 
+            // label15
+            // 
+            this.label15.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.label15.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.White;
+            this.label15.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label15.Location = new System.Drawing.Point(55, 425);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(177, 25);
+            this.label15.TabIndex = 7;
+            this.label15.Text = "BƠM THỦY LỰC";
             // 
             // label16
             // 
@@ -305,17 +620,81 @@
             this.shapeContainer5.Name = "shapeContainer5";
             this.shapeContainer5.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
             this.lineShape1,
-            this.ovalShape6,
-            this.ovalShape5,
-            this.ovalShape4,
-            this.ovalShape3,
-            this.ovalShape2,
-            this.ovalShape1,
+            this.ovPumpErr,
+            this.ovPumRun,
+            this.ovDoor4,
+            this.ovDoor3,
+            this.ovDoor2,
+            this.ovDoor1,
             this.rectangleShape9,
             this.rectangleShape10});
-            this.shapeContainer5.Size = new System.Drawing.Size(294, 804);
+            this.shapeContainer5.Size = new System.Drawing.Size(294, 790);
             this.shapeContainer5.TabIndex = 0;
             this.shapeContainer5.TabStop = false;
+            // 
+            // lineShape1
+            // 
+            this.lineShape1.BorderColor = System.Drawing.Color.Blue;
+            this.lineShape1.BorderWidth = 2;
+            this.lineShape1.Name = "lineShape1";
+            this.lineShape1.X1 = 45;
+            this.lineShape1.X2 = 241;
+            this.lineShape1.Y1 = 619;
+            this.lineShape1.Y2 = 619;
+            // 
+            // ovPumpErr
+            // 
+            this.ovPumpErr.BackColor = System.Drawing.SystemColors.Control;
+            this.ovPumpErr.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovPumpErr.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.ovPumpErr.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovPumpErr.Location = new System.Drawing.Point(22, 536);
+            this.ovPumpErr.Name = "ovPumpErr";
+            this.ovPumpErr.Size = new System.Drawing.Size(50, 50);
+            // 
+            // ovPumRun
+            // 
+            this.ovPumRun.BackColor = System.Drawing.SystemColors.Control;
+            this.ovPumRun.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovPumRun.BorderColor = System.Drawing.Color.Lime;
+            this.ovPumRun.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovPumRun.Location = new System.Drawing.Point(22, 455);
+            this.ovPumRun.Name = "ovPumRun";
+            this.ovPumRun.Size = new System.Drawing.Size(50, 50);
+            // 
+            // ovDoor4
+            // 
+            this.ovDoor4.BackColor = System.Drawing.SystemColors.Control;
+            this.ovDoor4.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovDoor4.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovDoor4.Location = new System.Drawing.Point(22, 314);
+            this.ovDoor4.Name = "ovDoor4";
+            this.ovDoor4.Size = new System.Drawing.Size(50, 50);
+            // 
+            // ovDoor3
+            // 
+            this.ovDoor3.BackColor = System.Drawing.SystemColors.Control;
+            this.ovDoor3.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovDoor3.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovDoor3.Location = new System.Drawing.Point(22, 234);
+            this.ovDoor3.Name = "ovDoor3";
+            this.ovDoor3.Size = new System.Drawing.Size(50, 50);
+            // 
+            // ovDoor2
+            // 
+            this.ovDoor2.BackColor = System.Drawing.SystemColors.Control;
+            this.ovDoor2.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovDoor2.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovDoor2.Location = new System.Drawing.Point(22, 154);
+            this.ovDoor2.Name = "ovDoor2";
+            this.ovDoor2.Size = new System.Drawing.Size(50, 50);
+            // 
+            // ovDoor1
+            // 
+            this.ovDoor1.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovDoor1.Location = new System.Drawing.Point(22, 74);
+            this.ovDoor1.Name = "ovDoor1";
+            this.ovDoor1.Size = new System.Drawing.Size(50, 50);
             // 
             // rectangleShape9
             // 
@@ -335,267 +714,23 @@
             this.rectangleShape10.Name = "rectangleShape2";
             this.rectangleShape10.Size = new System.Drawing.Size(282, 336);
             // 
-            // label15
-            // 
-            this.label15.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.label15.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.White;
-            this.label15.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label15.Location = new System.Drawing.Point(55, 425);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(177, 25);
-            this.label15.TabIndex = 7;
-            this.label15.Text = "BƠM THỦY LỰC";
-            // 
-            // ovalShape1
-            // 
-            this.ovalShape1.Location = new System.Drawing.Point(22, 74);
-            this.ovalShape1.Name = "ovalShape1";
-            this.ovalShape1.Size = new System.Drawing.Size(50, 50);
-            // 
-            // ovalShape2
-            // 
-            this.ovalShape2.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape2.Location = new System.Drawing.Point(22, 154);
-            this.ovalShape2.Name = "ovalShape1";
-            this.ovalShape2.Size = new System.Drawing.Size(50, 50);
-            // 
-            // ovalShape3
-            // 
-            this.ovalShape3.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape3.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape3.Location = new System.Drawing.Point(22, 234);
-            this.ovalShape3.Name = "ovalShape3";
-            this.ovalShape3.Size = new System.Drawing.Size(50, 50);
-            // 
-            // ovalShape4
-            // 
-            this.ovalShape4.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape4.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape4.Location = new System.Drawing.Point(22, 314);
-            this.ovalShape4.Name = "ovalShape4";
-            this.ovalShape4.Size = new System.Drawing.Size(50, 50);
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(91, 102);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(179, 23);
-            this.label13.TabIndex = 8;
-            this.label13.Text = "CỬA SỐ 01 ĐÓNG";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(91, 183);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(179, 23);
-            this.label17.TabIndex = 9;
-            this.label17.Text = "CỬA SỐ 02 ĐÓNG";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(91, 264);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(179, 23);
-            this.label18.TabIndex = 10;
-            this.label18.Text = "CỬA SỐ 03 ĐÓNG";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(91, 345);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(179, 23);
-            this.label19.TabIndex = 11;
-            this.label19.Text = "CỬA SỐ 04 ĐÓNG";
-            // 
-            // ovalShape5
-            // 
-            this.ovalShape5.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape5.BorderColor = System.Drawing.Color.Lime;
-            this.ovalShape5.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape5.Location = new System.Drawing.Point(22, 455);
-            this.ovalShape5.Name = "ovalShape5";
-            this.ovalShape5.Size = new System.Drawing.Size(50, 50);
-            // 
-            // ovalShape6
-            // 
-            this.ovalShape6.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.ovalShape6.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape6.Location = new System.Drawing.Point(22, 536);
-            this.ovalShape6.Name = "ovalShape6";
-            this.ovalShape6.Size = new System.Drawing.Size(50, 50);
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(91, 486);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(179, 23);
-            this.label20.TabIndex = 12;
-            this.label20.Text = "BƠM ĐANG CHẠY";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(91, 565);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(123, 23);
-            this.label21.TabIndex = 12;
-            this.label21.Text = "BƠM SỰ CỐ";
-            // 
-            // lineShape1
-            // 
-            this.lineShape1.BorderColor = System.Drawing.Color.Blue;
-            this.lineShape1.BorderWidth = 2;
-            this.lineShape1.Name = "lineShape1";
-            this.lineShape1.X1 = 45;
-            this.lineShape1.X2 = 241;
-            this.lineShape1.Y1 = 619;
-            this.lineShape1.Y2 = 619;
-            // 
-            // ovalShape7
-            // 
-            this.ovalShape7.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape7.BorderColor = System.Drawing.Color.Red;
-            this.ovalShape7.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape7.Location = new System.Drawing.Point(220, 300);
-            this.ovalShape7.Name = "ovalShape7";
-            this.ovalShape7.Size = new System.Drawing.Size(65, 65);
-            // 
-            // ovalShape8
-            // 
-            this.ovalShape8.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape8.BorderColor = System.Drawing.Color.Lime;
-            this.ovalShape8.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape8.Location = new System.Drawing.Point(220, 208);
-            this.ovalShape8.Name = "ovalShape8";
-            this.ovalShape8.Size = new System.Drawing.Size(65, 65);
-            // 
-            // ovalShape9
-            // 
-            this.ovalShape9.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape9.BorderColor = System.Drawing.Color.Lime;
-            this.ovalShape9.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape9.Location = new System.Drawing.Point(33, 75);
-            this.ovalShape9.Name = "ovalShape9";
-            this.ovalShape9.Size = new System.Drawing.Size(45, 45);
-            // 
-            // ovalShape10
-            // 
-            this.ovalShape10.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape10.BorderColor = System.Drawing.Color.Red;
-            this.ovalShape10.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape10.Location = new System.Drawing.Point(33, 138);
-            this.ovalShape10.Name = "ovalShape10";
-            this.ovalShape10.Size = new System.Drawing.Size(45, 45);
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(104, 103);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(166, 23);
-            this.label22.TabIndex = 14;
-            this.label22.Text = "GIỚI HẠN TRÊN";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(104, 167);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(167, 23);
-            this.label23.TabIndex = 14;
-            this.label23.Text = "GIỚI HẠN DƯỚI";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(104, 550);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(167, 23);
-            this.label24.TabIndex = 17;
-            this.label24.Text = "GIỚI HẠN DƯỚI";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Font = new System.Drawing.Font("Tahoma", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(104, 486);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(166, 23);
-            this.label25.TabIndex = 18;
-            this.label25.Text = "GIỚI HẠN TRÊN";
-            // 
-            // ovalShape11
-            // 
-            this.ovalShape11.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape11.BorderColor = System.Drawing.Color.Red;
-            this.ovalShape11.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape11.Location = new System.Drawing.Point(33, 521);
-            this.ovalShape11.Name = "ovalShape11";
-            this.ovalShape11.Size = new System.Drawing.Size(45, 45);
-            // 
-            // ovalShape12
-            // 
-            this.ovalShape12.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape12.BorderColor = System.Drawing.Color.Lime;
-            this.ovalShape12.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape12.Location = new System.Drawing.Point(33, 458);
-            this.ovalShape12.Name = "ovalShape12";
-            this.ovalShape12.Size = new System.Drawing.Size(45, 45);
-            // 
-            // ovalShape13
-            // 
-            this.ovalShape13.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape13.BorderColor = System.Drawing.Color.Lime;
-            this.ovalShape13.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape13.Location = new System.Drawing.Point(220, 603);
-            this.ovalShape13.Name = "ovalShape13";
-            this.ovalShape13.Size = new System.Drawing.Size(65, 65);
-            // 
-            // ovalShape14
-            // 
-            this.ovalShape14.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape14.BorderColor = System.Drawing.Color.Red;
-            this.ovalShape14.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape14.Location = new System.Drawing.Point(220, 695);
-            this.ovalShape14.Name = "ovalShape14";
-            this.ovalShape14.Size = new System.Drawing.Size(65, 65);
-            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.button7);
-            this.groupBox2.Controls.Add(this.button8);
+            this.groupBox2.Controls.Add(this.btnOffXiLanh3);
+            this.groupBox2.Controls.Add(this.btnOnXiLanh3);
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.label26);
-            this.groupBox2.Controls.Add(this.button9);
-            this.groupBox2.Controls.Add(this.button10);
+            this.groupBox2.Controls.Add(this.btnOffServo3);
+            this.groupBox2.Controls.Add(this.btnOnServo3);
             this.groupBox2.Controls.Add(this.label27);
             this.groupBox2.Controls.Add(this.label28);
             this.groupBox2.Controls.Add(this.label29);
             this.groupBox2.Controls.Add(this.shapeContainer1);
             this.groupBox2.Location = new System.Drawing.Point(359, 53);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(331, 823);
+            this.groupBox2.Size = new System.Drawing.Size(331, 809);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             // 
@@ -619,6 +754,46 @@
             this.label5.TabIndex = 18;
             this.label5.Text = "GIỚI HẠN TRÊN";
             // 
+            // btnOffXiLanh3
+            // 
+            this.btnOffXiLanh3.BackColor = System.Drawing.Color.DarkOrchid;
+            this.btnOffXiLanh3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnOffXiLanh3.FlatAppearance.BorderSize = 2;
+            this.btnOffXiLanh3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnOffXiLanh3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOffXiLanh3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOffXiLanh3.ForeColor = System.Drawing.Color.White;
+            this.btnOffXiLanh3.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Down_48px;
+            this.btnOffXiLanh3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOffXiLanh3.Location = new System.Drawing.Point(32, 705);
+            this.btnOffXiLanh3.Name = "btnOffXiLanh3";
+            this.btnOffXiLanh3.Size = new System.Drawing.Size(142, 75);
+            this.btnOffXiLanh3.TabIndex = 15;
+            this.btnOffXiLanh3.Text = "LÙI   ";
+            this.btnOffXiLanh3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnOffXiLanh3.UseVisualStyleBackColor = false;
+            this.btnOffXiLanh3.Click += new System.EventHandler(this.btnOnOffXiLanh3_Click);
+            // 
+            // btnOnXiLanh3
+            // 
+            this.btnOnXiLanh3.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnOnXiLanh3.FlatAppearance.BorderColor = System.Drawing.Color.SpringGreen;
+            this.btnOnXiLanh3.FlatAppearance.BorderSize = 2;
+            this.btnOnXiLanh3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.btnOnXiLanh3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOnXiLanh3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOnXiLanh3.ForeColor = System.Drawing.Color.White;
+            this.btnOnXiLanh3.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Up_48px;
+            this.btnOnXiLanh3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOnXiLanh3.Location = new System.Drawing.Point(32, 613);
+            this.btnOnXiLanh3.Name = "btnOnXiLanh3";
+            this.btnOnXiLanh3.Size = new System.Drawing.Size(142, 75);
+            this.btnOnXiLanh3.TabIndex = 16;
+            this.btnOnXiLanh3.Text = "TIẾN  ";
+            this.btnOnXiLanh3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnOnXiLanh3.UseVisualStyleBackColor = false;
+            this.btnOnXiLanh3.Click += new System.EventHandler(this.btnOnOffXiLanh3_Click);
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -638,6 +813,46 @@
             this.label26.Size = new System.Drawing.Size(166, 23);
             this.label26.TabIndex = 14;
             this.label26.Text = "GIỚI HẠN TRÊN";
+            // 
+            // btnOffServo3
+            // 
+            this.btnOffServo3.BackColor = System.Drawing.Color.DarkOrchid;
+            this.btnOffServo3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnOffServo3.FlatAppearance.BorderSize = 2;
+            this.btnOffServo3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnOffServo3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOffServo3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOffServo3.ForeColor = System.Drawing.Color.White;
+            this.btnOffServo3.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Down_48px;
+            this.btnOffServo3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOffServo3.Location = new System.Drawing.Point(32, 312);
+            this.btnOffServo3.Name = "btnOffServo3";
+            this.btnOffServo3.Size = new System.Drawing.Size(142, 75);
+            this.btnOffServo3.TabIndex = 13;
+            this.btnOffServo3.Text = "LÙI   ";
+            this.btnOffServo3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnOffServo3.UseVisualStyleBackColor = false;
+            this.btnOffServo3.Click += new System.EventHandler(this.btnOnOffServo3_Click);
+            // 
+            // btnOnServo3
+            // 
+            this.btnOnServo3.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnOnServo3.FlatAppearance.BorderColor = System.Drawing.Color.SpringGreen;
+            this.btnOnServo3.FlatAppearance.BorderSize = 2;
+            this.btnOnServo3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.btnOnServo3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOnServo3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOnServo3.ForeColor = System.Drawing.Color.White;
+            this.btnOnServo3.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Up_48px;
+            this.btnOnServo3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOnServo3.Location = new System.Drawing.Point(32, 220);
+            this.btnOnServo3.Name = "btnOnServo3";
+            this.btnOnServo3.Size = new System.Drawing.Size(142, 75);
+            this.btnOnServo3.TabIndex = 13;
+            this.btnOnServo3.Text = "TIẾN  ";
+            this.btnOnServo3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnOnServo3.UseVisualStyleBackColor = false;
+            this.btnOnServo3.Click += new System.EventHandler(this.btnOnOffServo3_Click);
             // 
             // label27
             // 
@@ -687,91 +902,99 @@
             this.shapeContainer1.Margin = new System.Windows.Forms.Padding(0);
             this.shapeContainer1.Name = "shapeContainer1";
             this.shapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
-            this.ovalShape15,
-            this.ovalShape16,
-            this.ovalShape17,
-            this.ovalShape18,
-            this.ovalShape19,
-            this.ovalShape20,
-            this.ovalShape21,
-            this.ovalShape22,
+            this.ovXiLanh3Down,
+            this.ovXiLanh3Up,
+            this.ovLimitXilanh3Up,
+            this.ovLimitXilanh3Down,
+            this.ovLimitSERVO3Down,
+            this.ovLimitSERVO3Up,
+            this.ovServo3Up,
+            this.ovServo3Down,
             this.rectangleShape1,
             this.rectangleShape4});
-            this.shapeContainer1.Size = new System.Drawing.Size(325, 804);
+            this.shapeContainer1.Size = new System.Drawing.Size(325, 790);
             this.shapeContainer1.TabIndex = 0;
             this.shapeContainer1.TabStop = false;
             // 
-            // ovalShape15
+            // ovXiLanh3Down
             // 
-            this.ovalShape15.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape15.BorderColor = System.Drawing.Color.Red;
-            this.ovalShape15.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape15.Location = new System.Drawing.Point(220, 695);
-            this.ovalShape15.Name = "ovalShape14";
-            this.ovalShape15.Size = new System.Drawing.Size(65, 65);
+            this.ovXiLanh3Down.BackColor = System.Drawing.SystemColors.Control;
+            this.ovXiLanh3Down.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovXiLanh3Down.BorderColor = System.Drawing.Color.Red;
+            this.ovXiLanh3Down.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovXiLanh3Down.Location = new System.Drawing.Point(220, 695);
+            this.ovXiLanh3Down.Name = "ovXiLanh3Down";
+            this.ovXiLanh3Down.Size = new System.Drawing.Size(65, 65);
             // 
-            // ovalShape16
+            // ovXiLanh3Up
             // 
-            this.ovalShape16.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape16.BorderColor = System.Drawing.Color.Lime;
-            this.ovalShape16.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape16.Location = new System.Drawing.Point(220, 603);
-            this.ovalShape16.Name = "ovalShape13";
-            this.ovalShape16.Size = new System.Drawing.Size(65, 65);
+            this.ovXiLanh3Up.BackColor = System.Drawing.SystemColors.Control;
+            this.ovXiLanh3Up.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovXiLanh3Up.BorderColor = System.Drawing.Color.Lime;
+            this.ovXiLanh3Up.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovXiLanh3Up.Location = new System.Drawing.Point(220, 603);
+            this.ovXiLanh3Up.Name = "ovXiLanh3Up";
+            this.ovXiLanh3Up.Size = new System.Drawing.Size(65, 65);
             // 
-            // ovalShape17
+            // ovLimitXilanh3Up
             // 
-            this.ovalShape17.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape17.BorderColor = System.Drawing.Color.Lime;
-            this.ovalShape17.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape17.Location = new System.Drawing.Point(33, 458);
-            this.ovalShape17.Name = "ovalShape12";
-            this.ovalShape17.Size = new System.Drawing.Size(45, 45);
+            this.ovLimitXilanh3Up.BackColor = System.Drawing.SystemColors.Control;
+            this.ovLimitXilanh3Up.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovLimitXilanh3Up.BorderColor = System.Drawing.Color.Lime;
+            this.ovLimitXilanh3Up.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovLimitXilanh3Up.Location = new System.Drawing.Point(33, 458);
+            this.ovLimitXilanh3Up.Name = "ovLimitXilanh3Up";
+            this.ovLimitXilanh3Up.Size = new System.Drawing.Size(45, 45);
             // 
-            // ovalShape18
+            // ovLimitXilanh3Down
             // 
-            this.ovalShape18.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape18.BorderColor = System.Drawing.Color.Red;
-            this.ovalShape18.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape18.Location = new System.Drawing.Point(33, 521);
-            this.ovalShape18.Name = "ovalShape11";
-            this.ovalShape18.Size = new System.Drawing.Size(45, 45);
+            this.ovLimitXilanh3Down.BackColor = System.Drawing.SystemColors.Control;
+            this.ovLimitXilanh3Down.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovLimitXilanh3Down.BorderColor = System.Drawing.Color.Red;
+            this.ovLimitXilanh3Down.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovLimitXilanh3Down.Location = new System.Drawing.Point(33, 521);
+            this.ovLimitXilanh3Down.Name = "ovLimitXilanh3Down";
+            this.ovLimitXilanh3Down.Size = new System.Drawing.Size(45, 45);
             // 
-            // ovalShape19
+            // ovLimitSERVO3Down
             // 
-            this.ovalShape19.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape19.BorderColor = System.Drawing.Color.Red;
-            this.ovalShape19.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape19.Location = new System.Drawing.Point(33, 138);
-            this.ovalShape19.Name = "ovalShape10";
-            this.ovalShape19.Size = new System.Drawing.Size(45, 45);
+            this.ovLimitSERVO3Down.BackColor = System.Drawing.SystemColors.Control;
+            this.ovLimitSERVO3Down.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovLimitSERVO3Down.BorderColor = System.Drawing.Color.Red;
+            this.ovLimitSERVO3Down.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovLimitSERVO3Down.Location = new System.Drawing.Point(33, 138);
+            this.ovLimitSERVO3Down.Name = "ovLimitSERVO3Down";
+            this.ovLimitSERVO3Down.Size = new System.Drawing.Size(45, 45);
             // 
-            // ovalShape20
+            // ovLimitSERVO3Up
             // 
-            this.ovalShape20.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape20.BorderColor = System.Drawing.Color.Lime;
-            this.ovalShape20.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape20.Location = new System.Drawing.Point(33, 75);
-            this.ovalShape20.Name = "ovalShape9";
-            this.ovalShape20.Size = new System.Drawing.Size(45, 45);
+            this.ovLimitSERVO3Up.BackColor = System.Drawing.SystemColors.Control;
+            this.ovLimitSERVO3Up.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovLimitSERVO3Up.BorderColor = System.Drawing.Color.Lime;
+            this.ovLimitSERVO3Up.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovLimitSERVO3Up.Location = new System.Drawing.Point(33, 75);
+            this.ovLimitSERVO3Up.Name = "ovLimitSERVO3Up";
+            this.ovLimitSERVO3Up.Size = new System.Drawing.Size(45, 45);
             // 
-            // ovalShape21
+            // ovServo3Up
             // 
-            this.ovalShape21.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape21.BorderColor = System.Drawing.Color.Lime;
-            this.ovalShape21.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape21.Location = new System.Drawing.Point(220, 208);
-            this.ovalShape21.Name = "ovalShape8";
-            this.ovalShape21.Size = new System.Drawing.Size(65, 65);
+            this.ovServo3Up.BackColor = System.Drawing.SystemColors.Control;
+            this.ovServo3Up.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovServo3Up.BorderColor = System.Drawing.Color.Lime;
+            this.ovServo3Up.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovServo3Up.Location = new System.Drawing.Point(220, 208);
+            this.ovServo3Up.Name = "ovServo3Up";
+            this.ovServo3Up.Size = new System.Drawing.Size(65, 65);
             // 
-            // ovalShape22
+            // ovServo3Down
             // 
-            this.ovalShape22.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape22.BorderColor = System.Drawing.Color.Red;
-            this.ovalShape22.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape22.Location = new System.Drawing.Point(220, 300);
-            this.ovalShape22.Name = "ovalShape7";
-            this.ovalShape22.Size = new System.Drawing.Size(65, 65);
+            this.ovServo3Down.BackColor = System.Drawing.SystemColors.Control;
+            this.ovServo3Down.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovServo3Down.BorderColor = System.Drawing.Color.Red;
+            this.ovServo3Down.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovServo3Down.Location = new System.Drawing.Point(220, 300);
+            this.ovServo3Down.Name = "ovServo3Down";
+            this.ovServo3Down.Size = new System.Drawing.Size(65, 65);
             // 
             // rectangleShape1
             // 
@@ -795,19 +1018,19 @@
             // 
             this.groupBox3.Controls.Add(this.label7);
             this.groupBox3.Controls.Add(this.label8);
-            this.groupBox3.Controls.Add(this.button11);
-            this.groupBox3.Controls.Add(this.button12);
+            this.groupBox3.Controls.Add(this.btnOffXiLanh2);
+            this.groupBox3.Controls.Add(this.btnOnXiLanh2);
             this.groupBox3.Controls.Add(this.label9);
             this.groupBox3.Controls.Add(this.label10);
-            this.groupBox3.Controls.Add(this.button13);
-            this.groupBox3.Controls.Add(this.button14);
+            this.groupBox3.Controls.Add(this.btnOffServo2);
+            this.groupBox3.Controls.Add(this.btnOnServo2);
             this.groupBox3.Controls.Add(this.label11);
             this.groupBox3.Controls.Add(this.label12);
             this.groupBox3.Controls.Add(this.label30);
             this.groupBox3.Controls.Add(this.shapeContainer3);
             this.groupBox3.Location = new System.Drawing.Point(699, 53);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(331, 823);
+            this.groupBox3.Size = new System.Drawing.Size(331, 809);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             // 
@@ -831,6 +1054,46 @@
             this.label8.TabIndex = 18;
             this.label8.Text = "GIỚI HẠN TRÊN";
             // 
+            // btnOffXiLanh2
+            // 
+            this.btnOffXiLanh2.BackColor = System.Drawing.Color.DarkOrchid;
+            this.btnOffXiLanh2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnOffXiLanh2.FlatAppearance.BorderSize = 2;
+            this.btnOffXiLanh2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnOffXiLanh2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOffXiLanh2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOffXiLanh2.ForeColor = System.Drawing.Color.White;
+            this.btnOffXiLanh2.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Down_48px;
+            this.btnOffXiLanh2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOffXiLanh2.Location = new System.Drawing.Point(32, 705);
+            this.btnOffXiLanh2.Name = "btnOffXiLanh2";
+            this.btnOffXiLanh2.Size = new System.Drawing.Size(142, 75);
+            this.btnOffXiLanh2.TabIndex = 15;
+            this.btnOffXiLanh2.Text = "LÙI   ";
+            this.btnOffXiLanh2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnOffXiLanh2.UseVisualStyleBackColor = false;
+            this.btnOffXiLanh2.Click += new System.EventHandler(this.btnOnOffXiLanh2_Click);
+            // 
+            // btnOnXiLanh2
+            // 
+            this.btnOnXiLanh2.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnOnXiLanh2.FlatAppearance.BorderColor = System.Drawing.Color.SpringGreen;
+            this.btnOnXiLanh2.FlatAppearance.BorderSize = 2;
+            this.btnOnXiLanh2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.btnOnXiLanh2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOnXiLanh2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOnXiLanh2.ForeColor = System.Drawing.Color.White;
+            this.btnOnXiLanh2.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Up_48px;
+            this.btnOnXiLanh2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOnXiLanh2.Location = new System.Drawing.Point(32, 613);
+            this.btnOnXiLanh2.Name = "btnOnXiLanh2";
+            this.btnOnXiLanh2.Size = new System.Drawing.Size(142, 75);
+            this.btnOnXiLanh2.TabIndex = 16;
+            this.btnOnXiLanh2.Text = "TIẾN  ";
+            this.btnOnXiLanh2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnOnXiLanh2.UseVisualStyleBackColor = false;
+            this.btnOnXiLanh2.Click += new System.EventHandler(this.btnOnOffXiLanh2_Click);
+            // 
             // label9
             // 
             this.label9.AutoSize = true;
@@ -850,6 +1113,46 @@
             this.label10.Size = new System.Drawing.Size(166, 23);
             this.label10.TabIndex = 14;
             this.label10.Text = "GIỚI HẠN TRÊN";
+            // 
+            // btnOffServo2
+            // 
+            this.btnOffServo2.BackColor = System.Drawing.Color.DarkOrchid;
+            this.btnOffServo2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnOffServo2.FlatAppearance.BorderSize = 2;
+            this.btnOffServo2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnOffServo2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOffServo2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOffServo2.ForeColor = System.Drawing.Color.White;
+            this.btnOffServo2.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Down_48px;
+            this.btnOffServo2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOffServo2.Location = new System.Drawing.Point(32, 312);
+            this.btnOffServo2.Name = "btnOffServo2";
+            this.btnOffServo2.Size = new System.Drawing.Size(142, 75);
+            this.btnOffServo2.TabIndex = 13;
+            this.btnOffServo2.Text = "LÙI   ";
+            this.btnOffServo2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnOffServo2.UseVisualStyleBackColor = false;
+            this.btnOffServo2.Click += new System.EventHandler(this.btnOnOffServo2_Click);
+            // 
+            // btnOnServo2
+            // 
+            this.btnOnServo2.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnOnServo2.FlatAppearance.BorderColor = System.Drawing.Color.SpringGreen;
+            this.btnOnServo2.FlatAppearance.BorderSize = 2;
+            this.btnOnServo2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.btnOnServo2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOnServo2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOnServo2.ForeColor = System.Drawing.Color.White;
+            this.btnOnServo2.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Up_48px;
+            this.btnOnServo2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOnServo2.Location = new System.Drawing.Point(32, 220);
+            this.btnOnServo2.Name = "btnOnServo2";
+            this.btnOnServo2.Size = new System.Drawing.Size(142, 75);
+            this.btnOnServo2.TabIndex = 13;
+            this.btnOnServo2.Text = "TIẾN  ";
+            this.btnOnServo2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnOnServo2.UseVisualStyleBackColor = false;
+            this.btnOnServo2.Click += new System.EventHandler(this.btnOnOffServo2_Click);
             // 
             // label11
             // 
@@ -899,91 +1202,99 @@
             this.shapeContainer3.Margin = new System.Windows.Forms.Padding(0);
             this.shapeContainer3.Name = "shapeContainer3";
             this.shapeContainer3.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
-            this.ovalShape23,
-            this.ovalShape24,
-            this.ovalShape25,
-            this.ovalShape26,
-            this.ovalShape27,
-            this.ovalShape28,
-            this.ovalShape29,
-            this.ovalShape30,
+            this.ovXiLanh2Down,
+            this.ovXiLanh2Up,
+            this.ovLimitXilanh2Up,
+            this.ovLimitXilanh2Down,
+            this.ovLimitSERVO2Down,
+            this.ovLimitSERVO2Up,
+            this.ovServo2Up,
+            this.ovServo2Down,
             this.rectangleShape5,
             this.rectangleShape6});
-            this.shapeContainer3.Size = new System.Drawing.Size(325, 804);
+            this.shapeContainer3.Size = new System.Drawing.Size(325, 790);
             this.shapeContainer3.TabIndex = 0;
             this.shapeContainer3.TabStop = false;
             // 
-            // ovalShape23
+            // ovXiLanh2Down
             // 
-            this.ovalShape23.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape23.BorderColor = System.Drawing.Color.Red;
-            this.ovalShape23.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape23.Location = new System.Drawing.Point(220, 695);
-            this.ovalShape23.Name = "ovalShape14";
-            this.ovalShape23.Size = new System.Drawing.Size(65, 65);
+            this.ovXiLanh2Down.BackColor = System.Drawing.SystemColors.Control;
+            this.ovXiLanh2Down.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovXiLanh2Down.BorderColor = System.Drawing.Color.Red;
+            this.ovXiLanh2Down.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovXiLanh2Down.Location = new System.Drawing.Point(220, 695);
+            this.ovXiLanh2Down.Name = "ovXiLanh2Down";
+            this.ovXiLanh2Down.Size = new System.Drawing.Size(65, 65);
             // 
-            // ovalShape24
+            // ovXiLanh2Up
             // 
-            this.ovalShape24.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape24.BorderColor = System.Drawing.Color.Lime;
-            this.ovalShape24.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape24.Location = new System.Drawing.Point(220, 603);
-            this.ovalShape24.Name = "ovalShape13";
-            this.ovalShape24.Size = new System.Drawing.Size(65, 65);
+            this.ovXiLanh2Up.BackColor = System.Drawing.SystemColors.Control;
+            this.ovXiLanh2Up.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovXiLanh2Up.BorderColor = System.Drawing.Color.Lime;
+            this.ovXiLanh2Up.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovXiLanh2Up.Location = new System.Drawing.Point(220, 603);
+            this.ovXiLanh2Up.Name = "ovXiLanh2Up";
+            this.ovXiLanh2Up.Size = new System.Drawing.Size(65, 65);
             // 
-            // ovalShape25
+            // ovLimitXilanh2Up
             // 
-            this.ovalShape25.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape25.BorderColor = System.Drawing.Color.Lime;
-            this.ovalShape25.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape25.Location = new System.Drawing.Point(33, 458);
-            this.ovalShape25.Name = "ovalShape12";
-            this.ovalShape25.Size = new System.Drawing.Size(45, 45);
+            this.ovLimitXilanh2Up.BackColor = System.Drawing.SystemColors.Control;
+            this.ovLimitXilanh2Up.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovLimitXilanh2Up.BorderColor = System.Drawing.Color.Lime;
+            this.ovLimitXilanh2Up.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovLimitXilanh2Up.Location = new System.Drawing.Point(33, 458);
+            this.ovLimitXilanh2Up.Name = "ovLimitXilanh2Up";
+            this.ovLimitXilanh2Up.Size = new System.Drawing.Size(45, 45);
             // 
-            // ovalShape26
+            // ovLimitXilanh2Down
             // 
-            this.ovalShape26.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape26.BorderColor = System.Drawing.Color.Red;
-            this.ovalShape26.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape26.Location = new System.Drawing.Point(33, 521);
-            this.ovalShape26.Name = "ovalShape11";
-            this.ovalShape26.Size = new System.Drawing.Size(45, 45);
+            this.ovLimitXilanh2Down.BackColor = System.Drawing.SystemColors.Control;
+            this.ovLimitXilanh2Down.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovLimitXilanh2Down.BorderColor = System.Drawing.Color.Red;
+            this.ovLimitXilanh2Down.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovLimitXilanh2Down.Location = new System.Drawing.Point(33, 521);
+            this.ovLimitXilanh2Down.Name = "ovLimitXilanh2Down";
+            this.ovLimitXilanh2Down.Size = new System.Drawing.Size(45, 45);
             // 
-            // ovalShape27
+            // ovLimitSERVO2Down
             // 
-            this.ovalShape27.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape27.BorderColor = System.Drawing.Color.Red;
-            this.ovalShape27.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape27.Location = new System.Drawing.Point(33, 138);
-            this.ovalShape27.Name = "ovalShape10";
-            this.ovalShape27.Size = new System.Drawing.Size(45, 45);
+            this.ovLimitSERVO2Down.BackColor = System.Drawing.SystemColors.Control;
+            this.ovLimitSERVO2Down.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovLimitSERVO2Down.BorderColor = System.Drawing.Color.Red;
+            this.ovLimitSERVO2Down.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovLimitSERVO2Down.Location = new System.Drawing.Point(33, 138);
+            this.ovLimitSERVO2Down.Name = "ovLimitSERVO2Down";
+            this.ovLimitSERVO2Down.Size = new System.Drawing.Size(45, 45);
             // 
-            // ovalShape28
+            // ovLimitSERVO2Up
             // 
-            this.ovalShape28.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape28.BorderColor = System.Drawing.Color.Lime;
-            this.ovalShape28.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape28.Location = new System.Drawing.Point(33, 75);
-            this.ovalShape28.Name = "ovalShape9";
-            this.ovalShape28.Size = new System.Drawing.Size(45, 45);
+            this.ovLimitSERVO2Up.BackColor = System.Drawing.SystemColors.Control;
+            this.ovLimitSERVO2Up.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovLimitSERVO2Up.BorderColor = System.Drawing.Color.Lime;
+            this.ovLimitSERVO2Up.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovLimitSERVO2Up.Location = new System.Drawing.Point(33, 75);
+            this.ovLimitSERVO2Up.Name = "ovLimitSERVO2Up";
+            this.ovLimitSERVO2Up.Size = new System.Drawing.Size(45, 45);
             // 
-            // ovalShape29
+            // ovServo2Up
             // 
-            this.ovalShape29.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape29.BorderColor = System.Drawing.Color.Lime;
-            this.ovalShape29.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape29.Location = new System.Drawing.Point(220, 208);
-            this.ovalShape29.Name = "ovalShape8";
-            this.ovalShape29.Size = new System.Drawing.Size(65, 65);
+            this.ovServo2Up.BackColor = System.Drawing.SystemColors.Control;
+            this.ovServo2Up.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovServo2Up.BorderColor = System.Drawing.Color.Lime;
+            this.ovServo2Up.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovServo2Up.Location = new System.Drawing.Point(220, 208);
+            this.ovServo2Up.Name = "ovServo2Up";
+            this.ovServo2Up.Size = new System.Drawing.Size(65, 65);
             // 
-            // ovalShape30
+            // ovServo2Down
             // 
-            this.ovalShape30.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape30.BorderColor = System.Drawing.Color.Red;
-            this.ovalShape30.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape30.Location = new System.Drawing.Point(220, 300);
-            this.ovalShape30.Name = "ovalShape7";
-            this.ovalShape30.Size = new System.Drawing.Size(65, 65);
+            this.ovServo2Down.BackColor = System.Drawing.SystemColors.Control;
+            this.ovServo2Down.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovServo2Down.BorderColor = System.Drawing.Color.Red;
+            this.ovServo2Down.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovServo2Down.Location = new System.Drawing.Point(220, 300);
+            this.ovServo2Down.Name = "ovServo2Down";
+            this.ovServo2Down.Size = new System.Drawing.Size(65, 65);
             // 
             // rectangleShape5
             // 
@@ -1007,19 +1318,19 @@
             // 
             this.groupBox4.Controls.Add(this.label31);
             this.groupBox4.Controls.Add(this.label32);
-            this.groupBox4.Controls.Add(this.button15);
-            this.groupBox4.Controls.Add(this.button16);
+            this.groupBox4.Controls.Add(this.btnOffXiLanh1);
+            this.groupBox4.Controls.Add(this.btnOnXiLanh1);
             this.groupBox4.Controls.Add(this.label33);
             this.groupBox4.Controls.Add(this.label34);
-            this.groupBox4.Controls.Add(this.button17);
-            this.groupBox4.Controls.Add(this.button18);
+            this.groupBox4.Controls.Add(this.btnOffServo1);
+            this.groupBox4.Controls.Add(this.btnOnServo1);
             this.groupBox4.Controls.Add(this.label35);
             this.groupBox4.Controls.Add(this.label36);
             this.groupBox4.Controls.Add(this.label37);
             this.groupBox4.Controls.Add(this.shapeContainer4);
             this.groupBox4.Location = new System.Drawing.Point(1039, 53);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(331, 823);
+            this.groupBox4.Size = new System.Drawing.Size(331, 809);
             this.groupBox4.TabIndex = 2;
             this.groupBox4.TabStop = false;
             // 
@@ -1043,6 +1354,46 @@
             this.label32.TabIndex = 18;
             this.label32.Text = "GIỚI HẠN TRÊN";
             // 
+            // btnOffXiLanh1
+            // 
+            this.btnOffXiLanh1.BackColor = System.Drawing.Color.DarkOrchid;
+            this.btnOffXiLanh1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnOffXiLanh1.FlatAppearance.BorderSize = 2;
+            this.btnOffXiLanh1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnOffXiLanh1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOffXiLanh1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOffXiLanh1.ForeColor = System.Drawing.Color.White;
+            this.btnOffXiLanh1.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Down_48px;
+            this.btnOffXiLanh1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOffXiLanh1.Location = new System.Drawing.Point(32, 705);
+            this.btnOffXiLanh1.Name = "btnOffXiLanh1";
+            this.btnOffXiLanh1.Size = new System.Drawing.Size(142, 75);
+            this.btnOffXiLanh1.TabIndex = 15;
+            this.btnOffXiLanh1.Text = "LÙI   ";
+            this.btnOffXiLanh1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnOffXiLanh1.UseVisualStyleBackColor = false;
+            this.btnOffXiLanh1.Click += new System.EventHandler(this.btnOnOffXiLanh1_Click);
+            // 
+            // btnOnXiLanh1
+            // 
+            this.btnOnXiLanh1.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnOnXiLanh1.FlatAppearance.BorderColor = System.Drawing.Color.SpringGreen;
+            this.btnOnXiLanh1.FlatAppearance.BorderSize = 2;
+            this.btnOnXiLanh1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.btnOnXiLanh1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOnXiLanh1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOnXiLanh1.ForeColor = System.Drawing.Color.White;
+            this.btnOnXiLanh1.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Up_48px;
+            this.btnOnXiLanh1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOnXiLanh1.Location = new System.Drawing.Point(32, 613);
+            this.btnOnXiLanh1.Name = "btnOnXiLanh1";
+            this.btnOnXiLanh1.Size = new System.Drawing.Size(142, 75);
+            this.btnOnXiLanh1.TabIndex = 16;
+            this.btnOnXiLanh1.Text = "TIẾN  ";
+            this.btnOnXiLanh1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnOnXiLanh1.UseVisualStyleBackColor = false;
+            this.btnOnXiLanh1.Click += new System.EventHandler(this.btnOnOffXiLanh1_Click);
+            // 
             // label33
             // 
             this.label33.AutoSize = true;
@@ -1062,6 +1413,46 @@
             this.label34.Size = new System.Drawing.Size(166, 23);
             this.label34.TabIndex = 14;
             this.label34.Text = "GIỚI HẠN TRÊN";
+            // 
+            // btnOffServo1
+            // 
+            this.btnOffServo1.BackColor = System.Drawing.Color.DarkOrchid;
+            this.btnOffServo1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btnOffServo1.FlatAppearance.BorderSize = 2;
+            this.btnOffServo1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnOffServo1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOffServo1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOffServo1.ForeColor = System.Drawing.Color.White;
+            this.btnOffServo1.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Down_48px;
+            this.btnOffServo1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOffServo1.Location = new System.Drawing.Point(32, 312);
+            this.btnOffServo1.Name = "btnOffServo1";
+            this.btnOffServo1.Size = new System.Drawing.Size(142, 75);
+            this.btnOffServo1.TabIndex = 13;
+            this.btnOffServo1.Text = "LÙI   ";
+            this.btnOffServo1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnOffServo1.UseVisualStyleBackColor = false;
+            this.btnOffServo1.Click += new System.EventHandler(this.btnOnOffServo1_Click);
+            // 
+            // btnOnServo1
+            // 
+            this.btnOnServo1.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btnOnServo1.FlatAppearance.BorderColor = System.Drawing.Color.SpringGreen;
+            this.btnOnServo1.FlatAppearance.BorderSize = 2;
+            this.btnOnServo1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.btnOnServo1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOnServo1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnOnServo1.ForeColor = System.Drawing.Color.White;
+            this.btnOnServo1.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Up_48px;
+            this.btnOnServo1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnOnServo1.Location = new System.Drawing.Point(32, 220);
+            this.btnOnServo1.Name = "btnOnServo1";
+            this.btnOnServo1.Size = new System.Drawing.Size(142, 75);
+            this.btnOnServo1.TabIndex = 13;
+            this.btnOnServo1.Text = "TIẾN  ";
+            this.btnOnServo1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnOnServo1.UseVisualStyleBackColor = false;
+            this.btnOnServo1.Click += new System.EventHandler(this.btnOnOffServo1_Click);
             // 
             // label35
             // 
@@ -1111,91 +1502,99 @@
             this.shapeContainer4.Margin = new System.Windows.Forms.Padding(0);
             this.shapeContainer4.Name = "shapeContainer4";
             this.shapeContainer4.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
-            this.ovalShape31,
-            this.ovalShape32,
-            this.ovalShape33,
-            this.ovalShape34,
-            this.ovalShape35,
-            this.ovalShape36,
-            this.ovalShape37,
-            this.ovalShape38,
+            this.ovXiLanh1Down,
+            this.ovXiLanh1Up,
+            this.ovLimitXilanh1Up,
+            this.ovLimitXilanh1Down,
+            this.ovLimitSERVO1Down,
+            this.ovLimitSERVO1Up,
+            this.ovServo1Up,
+            this.ovServo1Down,
             this.rectangleShape7,
             this.rectangleShape8});
-            this.shapeContainer4.Size = new System.Drawing.Size(325, 804);
+            this.shapeContainer4.Size = new System.Drawing.Size(325, 790);
             this.shapeContainer4.TabIndex = 0;
             this.shapeContainer4.TabStop = false;
             // 
-            // ovalShape31
+            // ovXiLanh1Down
             // 
-            this.ovalShape31.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape31.BorderColor = System.Drawing.Color.Red;
-            this.ovalShape31.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape31.Location = new System.Drawing.Point(220, 695);
-            this.ovalShape31.Name = "ovalShape14";
-            this.ovalShape31.Size = new System.Drawing.Size(65, 65);
+            this.ovXiLanh1Down.BackColor = System.Drawing.SystemColors.Control;
+            this.ovXiLanh1Down.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovXiLanh1Down.BorderColor = System.Drawing.Color.Red;
+            this.ovXiLanh1Down.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovXiLanh1Down.Location = new System.Drawing.Point(220, 695);
+            this.ovXiLanh1Down.Name = "ovXiLanh1Down";
+            this.ovXiLanh1Down.Size = new System.Drawing.Size(65, 65);
             // 
-            // ovalShape32
+            // ovXiLanh1Up
             // 
-            this.ovalShape32.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape32.BorderColor = System.Drawing.Color.Lime;
-            this.ovalShape32.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape32.Location = new System.Drawing.Point(220, 603);
-            this.ovalShape32.Name = "ovalShape13";
-            this.ovalShape32.Size = new System.Drawing.Size(65, 65);
+            this.ovXiLanh1Up.BackColor = System.Drawing.SystemColors.Control;
+            this.ovXiLanh1Up.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovXiLanh1Up.BorderColor = System.Drawing.Color.Lime;
+            this.ovXiLanh1Up.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovXiLanh1Up.Location = new System.Drawing.Point(220, 603);
+            this.ovXiLanh1Up.Name = "ovXiLanh1Up";
+            this.ovXiLanh1Up.Size = new System.Drawing.Size(65, 65);
             // 
-            // ovalShape33
+            // ovLimitXilanh1Up
             // 
-            this.ovalShape33.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape33.BorderColor = System.Drawing.Color.Lime;
-            this.ovalShape33.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape33.Location = new System.Drawing.Point(33, 458);
-            this.ovalShape33.Name = "ovalShape12";
-            this.ovalShape33.Size = new System.Drawing.Size(45, 45);
+            this.ovLimitXilanh1Up.BackColor = System.Drawing.SystemColors.Control;
+            this.ovLimitXilanh1Up.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovLimitXilanh1Up.BorderColor = System.Drawing.Color.Lime;
+            this.ovLimitXilanh1Up.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovLimitXilanh1Up.Location = new System.Drawing.Point(33, 458);
+            this.ovLimitXilanh1Up.Name = "ovLimitXilanh1Up";
+            this.ovLimitXilanh1Up.Size = new System.Drawing.Size(45, 45);
             // 
-            // ovalShape34
+            // ovLimitXilanh1Down
             // 
-            this.ovalShape34.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape34.BorderColor = System.Drawing.Color.Red;
-            this.ovalShape34.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape34.Location = new System.Drawing.Point(33, 521);
-            this.ovalShape34.Name = "ovalShape11";
-            this.ovalShape34.Size = new System.Drawing.Size(45, 45);
+            this.ovLimitXilanh1Down.BackColor = System.Drawing.SystemColors.Control;
+            this.ovLimitXilanh1Down.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovLimitXilanh1Down.BorderColor = System.Drawing.Color.Red;
+            this.ovLimitXilanh1Down.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovLimitXilanh1Down.Location = new System.Drawing.Point(33, 521);
+            this.ovLimitXilanh1Down.Name = "ovLimitXilanh1Down";
+            this.ovLimitXilanh1Down.Size = new System.Drawing.Size(45, 45);
             // 
-            // ovalShape35
+            // ovLimitSERVO1Down
             // 
-            this.ovalShape35.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape35.BorderColor = System.Drawing.Color.Red;
-            this.ovalShape35.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape35.Location = new System.Drawing.Point(33, 138);
-            this.ovalShape35.Name = "ovalShape10";
-            this.ovalShape35.Size = new System.Drawing.Size(45, 45);
+            this.ovLimitSERVO1Down.BackColor = System.Drawing.SystemColors.Control;
+            this.ovLimitSERVO1Down.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovLimitSERVO1Down.BorderColor = System.Drawing.Color.Red;
+            this.ovLimitSERVO1Down.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovLimitSERVO1Down.Location = new System.Drawing.Point(33, 138);
+            this.ovLimitSERVO1Down.Name = "ovLimitSERVO1Down";
+            this.ovLimitSERVO1Down.Size = new System.Drawing.Size(45, 45);
             // 
-            // ovalShape36
+            // ovLimitSERVO1Up
             // 
-            this.ovalShape36.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape36.BorderColor = System.Drawing.Color.Lime;
-            this.ovalShape36.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape36.Location = new System.Drawing.Point(33, 75);
-            this.ovalShape36.Name = "ovalShape9";
-            this.ovalShape36.Size = new System.Drawing.Size(45, 45);
+            this.ovLimitSERVO1Up.BackColor = System.Drawing.Color.Transparent;
+            this.ovLimitSERVO1Up.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovLimitSERVO1Up.BorderColor = System.Drawing.Color.Lime;
+            this.ovLimitSERVO1Up.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovLimitSERVO1Up.Location = new System.Drawing.Point(33, 75);
+            this.ovLimitSERVO1Up.Name = "ovLimitSERVO1Up";
+            this.ovLimitSERVO1Up.Size = new System.Drawing.Size(45, 45);
             // 
-            // ovalShape37
+            // ovServo1Up
             // 
-            this.ovalShape37.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape37.BorderColor = System.Drawing.Color.Lime;
-            this.ovalShape37.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape37.Location = new System.Drawing.Point(220, 208);
-            this.ovalShape37.Name = "ovalShape8";
-            this.ovalShape37.Size = new System.Drawing.Size(65, 65);
+            this.ovServo1Up.BackColor = System.Drawing.SystemColors.Control;
+            this.ovServo1Up.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovServo1Up.BorderColor = System.Drawing.Color.Lime;
+            this.ovServo1Up.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovServo1Up.Location = new System.Drawing.Point(220, 208);
+            this.ovServo1Up.Name = "ovServo1Up";
+            this.ovServo1Up.Size = new System.Drawing.Size(65, 65);
             // 
-            // ovalShape38
+            // ovServo1Down
             // 
-            this.ovalShape38.BackColor = System.Drawing.SystemColors.Control;
-            this.ovalShape38.BorderColor = System.Drawing.Color.Red;
-            this.ovalShape38.Cursor = System.Windows.Forms.Cursors.Default;
-            this.ovalShape38.Location = new System.Drawing.Point(220, 300);
-            this.ovalShape38.Name = "ovalShape7";
-            this.ovalShape38.Size = new System.Drawing.Size(65, 65);
+            this.ovServo1Down.BackColor = System.Drawing.SystemColors.Control;
+            this.ovServo1Down.BackStyle = Microsoft.VisualBasic.PowerPacks.BackStyle.Opaque;
+            this.ovServo1Down.BorderColor = System.Drawing.Color.Red;
+            this.ovServo1Down.Cursor = System.Windows.Forms.Cursors.Default;
+            this.ovServo1Down.Location = new System.Drawing.Point(220, 300);
+            this.ovServo1Down.Name = "ovServo1Down";
+            this.ovServo1Down.Size = new System.Drawing.Size(65, 65);
             // 
             // rectangleShape7
             // 
@@ -1234,347 +1633,11 @@
             this.shapeContainer6.TabIndex = 6;
             this.shapeContainer6.TabStop = false;
             // 
-            // button2
+            // timer1Update
             // 
-            this.button2.BackColor = System.Drawing.Color.DarkOrchid;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button2.FlatAppearance.BorderSize = 2;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Image = global::Rubber_Sheet.Properties.Resources.Stop_Sign_48px;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(157, 696);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(120, 81);
-            this.button2.TabIndex = 13;
-            this.button2.Text = "TẮT ";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.SpringGreen;
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Image = global::Rubber_Sheet.Properties.Resources.Circled_Play_48px;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(21, 696);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 81);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "BẬT ";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button15
-            // 
-            this.button15.BackColor = System.Drawing.Color.DarkOrchid;
-            this.button15.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button15.FlatAppearance.BorderSize = 2;
-            this.button15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button15.ForeColor = System.Drawing.Color.White;
-            this.button15.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Down_48px;
-            this.button15.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button15.Location = new System.Drawing.Point(32, 705);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(142, 75);
-            this.button15.TabIndex = 15;
-            this.button15.Text = "TẮT  ";
-            this.button15.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button15.UseVisualStyleBackColor = false;
-            // 
-            // button16
-            // 
-            this.button16.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button16.FlatAppearance.BorderColor = System.Drawing.Color.SpringGreen;
-            this.button16.FlatAppearance.BorderSize = 2;
-            this.button16.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button16.ForeColor = System.Drawing.Color.White;
-            this.button16.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Up_48px;
-            this.button16.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button16.Location = new System.Drawing.Point(32, 613);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(142, 75);
-            this.button16.TabIndex = 16;
-            this.button16.Text = "BẬT  ";
-            this.button16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button16.UseVisualStyleBackColor = false;
-            // 
-            // button17
-            // 
-            this.button17.BackColor = System.Drawing.Color.DarkOrchid;
-            this.button17.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button17.FlatAppearance.BorderSize = 2;
-            this.button17.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button17.ForeColor = System.Drawing.Color.White;
-            this.button17.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Down_48px;
-            this.button17.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button17.Location = new System.Drawing.Point(32, 312);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(142, 75);
-            this.button17.TabIndex = 13;
-            this.button17.Text = "TẮT  ";
-            this.button17.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button17.UseVisualStyleBackColor = false;
-            // 
-            // button18
-            // 
-            this.button18.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button18.FlatAppearance.BorderColor = System.Drawing.Color.SpringGreen;
-            this.button18.FlatAppearance.BorderSize = 2;
-            this.button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button18.ForeColor = System.Drawing.Color.White;
-            this.button18.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Up_48px;
-            this.button18.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button18.Location = new System.Drawing.Point(32, 220);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(142, 75);
-            this.button18.TabIndex = 13;
-            this.button18.Text = "BẬT  ";
-            this.button18.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button18.UseVisualStyleBackColor = false;
-            // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.Color.DarkOrchid;
-            this.button11.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button11.FlatAppearance.BorderSize = 2;
-            this.button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Down_48px;
-            this.button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button11.Location = new System.Drawing.Point(32, 705);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(142, 75);
-            this.button11.TabIndex = 15;
-            this.button11.Text = "TẮT  ";
-            this.button11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button11.UseVisualStyleBackColor = false;
-            // 
-            // button12
-            // 
-            this.button12.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button12.FlatAppearance.BorderColor = System.Drawing.Color.SpringGreen;
-            this.button12.FlatAppearance.BorderSize = 2;
-            this.button12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.ForeColor = System.Drawing.Color.White;
-            this.button12.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Up_48px;
-            this.button12.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button12.Location = new System.Drawing.Point(32, 613);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(142, 75);
-            this.button12.TabIndex = 16;
-            this.button12.Text = "BẬT  ";
-            this.button12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button12.UseVisualStyleBackColor = false;
-            // 
-            // button13
-            // 
-            this.button13.BackColor = System.Drawing.Color.DarkOrchid;
-            this.button13.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button13.FlatAppearance.BorderSize = 2;
-            this.button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.ForeColor = System.Drawing.Color.White;
-            this.button13.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Down_48px;
-            this.button13.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button13.Location = new System.Drawing.Point(32, 312);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(142, 75);
-            this.button13.TabIndex = 13;
-            this.button13.Text = "TẮT  ";
-            this.button13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button13.UseVisualStyleBackColor = false;
-            // 
-            // button14
-            // 
-            this.button14.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button14.FlatAppearance.BorderColor = System.Drawing.Color.SpringGreen;
-            this.button14.FlatAppearance.BorderSize = 2;
-            this.button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.ForeColor = System.Drawing.Color.White;
-            this.button14.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Up_48px;
-            this.button14.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button14.Location = new System.Drawing.Point(32, 220);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(142, 75);
-            this.button14.TabIndex = 13;
-            this.button14.Text = "BẬT  ";
-            this.button14.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button14.UseVisualStyleBackColor = false;
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.DarkOrchid;
-            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button7.FlatAppearance.BorderSize = 2;
-            this.button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Down_48px;
-            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(32, 705);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(142, 75);
-            this.button7.TabIndex = 15;
-            this.button7.Text = "TẮT  ";
-            this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button7.UseVisualStyleBackColor = false;
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button8.FlatAppearance.BorderColor = System.Drawing.Color.SpringGreen;
-            this.button8.FlatAppearance.BorderSize = 2;
-            this.button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Up_48px;
-            this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button8.Location = new System.Drawing.Point(32, 613);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(142, 75);
-            this.button8.TabIndex = 16;
-            this.button8.Text = "BẬT  ";
-            this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button8.UseVisualStyleBackColor = false;
-            // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.DarkOrchid;
-            this.button9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button9.FlatAppearance.BorderSize = 2;
-            this.button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Down_48px;
-            this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.Location = new System.Drawing.Point(32, 312);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(142, 75);
-            this.button9.TabIndex = 13;
-            this.button9.Text = "TẮT  ";
-            this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button9.UseVisualStyleBackColor = false;
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button10.FlatAppearance.BorderColor = System.Drawing.Color.SpringGreen;
-            this.button10.FlatAppearance.BorderSize = 2;
-            this.button10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.ForeColor = System.Drawing.Color.White;
-            this.button10.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Up_48px;
-            this.button10.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button10.Location = new System.Drawing.Point(32, 220);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(142, 75);
-            this.button10.TabIndex = 13;
-            this.button10.Text = "BẬT  ";
-            this.button10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button10.UseVisualStyleBackColor = false;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.DarkOrchid;
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button5.FlatAppearance.BorderSize = 2;
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Down_48px;
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(32, 705);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(142, 75);
-            this.button5.TabIndex = 15;
-            this.button5.Text = "TẮT  ";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.SpringGreen;
-            this.button6.FlatAppearance.BorderSize = 2;
-            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Up_48px;
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(32, 613);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(142, 75);
-            this.button6.TabIndex = 16;
-            this.button6.Text = "BẬT  ";
-            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.DarkOrchid;
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button4.FlatAppearance.BorderSize = 2;
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Down_48px;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(32, 312);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(142, 75);
-            this.button4.TabIndex = 13;
-            this.button4.Text = "TẮT  ";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.RoyalBlue;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.SpringGreen;
-            this.button3.FlatAppearance.BorderSize = 2;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Image = global::Rubber_Sheet.Properties.Resources.Scroll_Up_48px;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(32, 220);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(142, 75);
-            this.button3.TabIndex = 13;
-            this.button3.Text = "BẬT  ";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.UseVisualStyleBackColor = false;
+            this.timer1Update.Enabled = true;
+            this.timer1Update.Interval = 500;
+            this.timer1Update.Tick += new System.EventHandler(this.timer1Update_Tick);
             // 
             // MotorControl
             // 
@@ -1621,105 +1684,106 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer5;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape4;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape3;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape2;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape1;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovDoor4;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovDoor3;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovDoor2;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovDoor1;
         private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape9;
         private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape10;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label20;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape1;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape6;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape5;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape8;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape7;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovPumpErr;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovPumRun;
+        private System.Windows.Forms.Button btnPumpON;
+        private System.Windows.Forms.Button btnPumpOFF;
+        private System.Windows.Forms.Button btnOffServo4;
+        private System.Windows.Forms.Button btnOnServo4;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovServo4Up;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovServo4Down;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label22;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape10;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape9;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovLimitSERVO4Down;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovLimitSERVO4Up;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape14;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape13;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape12;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape11;
+        private System.Windows.Forms.Button btnOffXiLanh4;
+        private System.Windows.Forms.Button btnOnXiLanh4;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovXiLanh4Down;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovXiLanh4Up;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovLimitXilanh4Up;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovLimitXilanh4Down;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button btnOffXiLanh3;
+        private System.Windows.Forms.Button btnOnXiLanh3;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button btnOffServo3;
+        private System.Windows.Forms.Button btnOnServo3;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label29;
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer1;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape15;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape16;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape17;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape18;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape19;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape20;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape21;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape22;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovXiLanh3Down;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovXiLanh3Up;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovLimitXilanh3Up;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovLimitXilanh3Down;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovLimitSERVO3Down;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovLimitSERVO3Up;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovServo3Up;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovServo3Down;
         private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape1;
         private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape4;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button btnOffXiLanh2;
+        private System.Windows.Forms.Button btnOnXiLanh2;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button btnOffServo2;
+        private System.Windows.Forms.Button btnOnServo2;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label30;
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer3;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape23;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape24;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape25;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape26;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape27;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape28;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape29;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape30;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovXiLanh2Down;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovXiLanh2Up;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovLimitXilanh2Up;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovLimitXilanh2Down;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovLimitSERVO2Down;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovLimitSERVO2Up;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovServo2Up;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovServo2Down;
         private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape5;
         private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape6;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button btnOffXiLanh1;
+        private System.Windows.Forms.Button btnOnXiLanh1;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button btnOffServo1;
+        private System.Windows.Forms.Button btnOnServo1;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label37;
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer4;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape31;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape32;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape33;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape34;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape35;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape36;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape37;
-        private Microsoft.VisualBasic.PowerPacks.OvalShape ovalShape38;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovXiLanh1Down;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovXiLanh1Up;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovLimitXilanh1Up;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovLimitXilanh1Down;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovLimitSERVO1Down;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovLimitSERVO1Up;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovServo1Up;
+        private Microsoft.VisualBasic.PowerPacks.OvalShape ovServo1Down;
         private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape7;
         private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape8;
         private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape11;
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer6;
+        private System.Windows.Forms.Timer timer1Update;
     }
 }
